@@ -1,5 +1,4 @@
 name: Github Action flow to Docker hub
-
 on:
   push:
     branches: [ main ]
