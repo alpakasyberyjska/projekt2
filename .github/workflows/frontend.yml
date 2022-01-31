@@ -30,7 +30,7 @@ jobs:
           contex: ./
           file: ./dockerfile.v1
           push : true
-          tags: alpakasyberyjska/projekt2:ghfront1
+          tags: alpacza/projekt2:ghfront1
         
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
